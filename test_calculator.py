@@ -10,7 +10,7 @@ class TestCaseAddition(unittest.TestCase):
 
 	def testSubtraction(self):
 		self.assertEqual(calculator.subtraction(5,2), 3)
-		self.assertEqual(calculator.subtraction(0,2), -2)
+		self.assertEqual(calculator.subtraction(-1,-2), 1)
 		self.assertEqual(calculator.subtraction(2,3), -1)
 		self.assertEqual(calculator.subtraction(0,0), 0)
 
